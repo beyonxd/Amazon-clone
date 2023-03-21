@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./Subtotal.css";
 import { NumericFormat } from "react-number-format";
 import { useStateValue } from "./StateProvider";
@@ -7,7 +6,6 @@ import { getBasketTotal } from "./reducer";
 function Subtotal() {
   const [{ basket }, dispatch] = useStateValue();
   
- 
 
   return (
     <div className="subtotal">
