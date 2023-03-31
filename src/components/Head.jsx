@@ -40,11 +40,14 @@ function Head() {
             <span className="optionLineOne">Hello, {user ? user.email : "guest" }</span>
             <span className="optionLineTwo">{user? "Sign Out" : "Sign In" }</span>
         </div>
-          </Link>
-        <div className="options">
+        </Link>
+        <Link to="/orders">
+        <div className="options link">
           <span className="optionLineOne">Returns</span>
           <span className="optionLineTwo">& Orders</span>
         </div>
+
+        </Link>
         <div className="options">
           <span className="optionLineOne">Your</span>
           <span className="optionLineTwo">Prime</span>
