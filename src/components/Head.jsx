@@ -41,8 +41,8 @@ function Head() {
             <span className="optionLineTwo">{user? "Sign Out" : "Sign In" }</span>
         </div>
         </Link>
-        <Link to="/orders">
-        <div className="options link">
+        <Link className="link" to="/orders">
+        <div className="options">
           <span className="optionLineOne">Returns</span>
           <span className="optionLineTwo">& Orders</span>
         </div>
